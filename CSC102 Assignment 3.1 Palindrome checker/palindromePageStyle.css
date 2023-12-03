@@ -1,5 +1,5 @@
  /* Palindrome Page Formatting */
-    .strings {
+    /*.strings {
         background-color: white;
         padding: 20px;
         border-radius: 10px;
@@ -7,7 +7,7 @@
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
     /* Palindrome Page Formatting(header) */
      h1 {
         
@@ -15,14 +15,32 @@
  /* Aligns text to the center */
     margin-top: 0;
  /* Removes any default top margin */
-     padding-top: -500px;
+     padding-top: 10px;
  /* Adds space at the top */
             
     }
+    /* Image Formatting */
+        
+            .niceCar {
+                    position: absolute;
+                    left: 50%;
+                    bottom: 10px;
+                    /* Adjust as needed to position close to the bottom */
+                    transform: translateX(-50%);
+                    /* Centers the element horizontally */
+                    width: 800px;
+                    height: 500px;
+                
+       /* position: absolute;
+         top: 0;
+        right: 0;
+        width: 300px;
+        height: auto; */
+        }
 /* Path: palindromePageSyle.css */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+   /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -105,6 +123,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: middle;
     color-scheme: black;
 }
